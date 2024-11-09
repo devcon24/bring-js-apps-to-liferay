@@ -1,0 +1,17 @@
+assemble:
+  - from: dist/browser
+    into: static
+angular-todo-mvc:
+  cssURLs:
+    - styles.css
+  friendlyURLMapping: angular-todo-mvc
+  htmlElementName: angular-todo-mvc
+  instanceable: false
+  name: Angular TODO MVC
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - polyfills.js
+    - scripts.js
+    - main.js
+  useESM: true

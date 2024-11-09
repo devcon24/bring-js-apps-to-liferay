@@ -1,0 +1,15 @@
+assemble:
+  - from: dist
+    into: static
+jquery-todo-mvc:
+  cssURLs:
+    - app.bundle.css
+  friendlyURLMapping: jquery-todo-mvc
+  htmlElementName: jquery-todo-mvc
+  instanceable: false
+  name: jQuery TODO MVC
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - app.bundle.js
+  useESM: true

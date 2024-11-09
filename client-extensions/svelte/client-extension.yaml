@@ -1,0 +1,15 @@
+assemble:
+  - from: dist
+    into: static
+svelte-todo-mvc:
+  cssURLs:
+    - svelte-todo-mvc.css
+  friendlyURLMapping: svelte-todo-mvc
+  htmlElementName: svelte-todo-mvc
+  instanceable: false
+  name: Svelte TODO MVC
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - svelte-todo-mvc.js
+  useESM: true

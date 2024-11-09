@@ -1,0 +1,15 @@
+assemble:
+  - from: dist
+    into: static
+vue-todo-mvc:
+  cssURLs:
+    - style.css
+  friendlyURLMapping: vue-todo-mvc
+  htmlElementName: vue-todo-mvc
+  instanceable: false
+  name: Vue.js TODO MVC
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - vue-todo-app.es.js
+  useESM: true

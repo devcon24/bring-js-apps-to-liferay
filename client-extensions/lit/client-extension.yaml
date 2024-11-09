@@ -1,0 +1,13 @@
+assemble:
+  - from: dist
+    into: static
+lit-todo-mvc:
+  friendlyURLMapping: lit-todo-mvc
+  htmlElementName: lit-todo-mvc
+  instanceable: false
+  name: Lit TODO MVC
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - index.js
+  useESM: true

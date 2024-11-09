@@ -1,0 +1,16 @@
+assemble:
+  - from: dist
+    into: static
+todo-app:
+  cssURLs:
+    - styles/todo-app-styles.css
+    - styles/todo-common-base.css
+  friendlyURLMapping: todo-app
+  htmlElementName: todo-app
+  instanceable: false
+  name: Web Components TODO MVC
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - todo-app.bundle.js
+  useESM: true
