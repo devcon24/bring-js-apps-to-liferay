@@ -16,7 +16,7 @@ module.exports = merge(common, {
         }),
 		new CopyPlugin({
 			patterns: [
-			  { from: "./node_modules/todomvc-common/base.js", to: "base.js" },
+			  { from: "../../node_modules/todomvc-common/base.js", to: "base.js" },
 			],
 		}),
     ],

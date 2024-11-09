@@ -31,11 +31,11 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/todomvc-app-css/index.css",
-              "node_modules/todomvc-common/base.css"
+              "../../todo-app-styles.css",
+              "../../todo-common-base.css"
             ],
             "scripts": [
-              "node_modules/todomvc-common/base.js"
+              "../../node_modules/todomvc-common/base.js"
             ]
           },
           "configurations": {
@@ -52,7 +52,7 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "none"
             },
             "development": {
               "optimization": false,
@@ -95,13 +95,16 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/todomvc-app-css/index.css",
-              "node_modules/todomvc-common/base.css"
+              "../../todo-app-styles.css",
+              "../../todo-common-base.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

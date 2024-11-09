@@ -1,7 +1,6 @@
 import App from "./App.svelte";
+import "./app.css";
+import "../../../todo-app-styles.css";
+import "../../../todo-common-base.css";
 
-const app = new App({
-    target: document.querySelector(".todoapp"),
-});
-
-export default app;
+export default App;

@@ -3,6 +3,7 @@ const template = document.createElement("template");
 template.id = "todo-topbar-template";
 template.innerHTML = `
     <header class="topbar">
+        <h1>todos</h1>
         <div class="new-todo-display">
             <label for="new-todo" class="visually-hidden">Enter a new todo.</label>
             <input id="new-todo" class="new-todo-input" placeholder="What needs to be done?" autofocus />

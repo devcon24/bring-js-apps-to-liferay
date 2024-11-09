@@ -1,5 +1,5 @@
 {
-    "name": "todomvc-react",
+    "name": "react-todo-mvc",
     "version": "1.0.0",
     "description": "A TodoMVC written in React.",
     "private": true,
@@ -10,8 +10,7 @@
     "scripts": {
         "build": "webpack --config webpack.prod.js",
         "dev": "webpack serve --open --config webpack.dev.js",
-        "serve": "http-server ./dist -p 7002 -c-1 --cors",
-        "test": "jest"
+        "serve": "http-server ./dist -p 7002 -c-1 --cors"
     },
     "devDependencies": {
         "@babel/core": "^7.21.0",

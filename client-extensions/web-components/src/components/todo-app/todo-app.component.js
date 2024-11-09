@@ -4,6 +4,13 @@ import { useRouter } from "../../hooks/useRouter.js";
 import globalStyles from "../../../styles/global.constructable.js";
 import appStyles from "../../../styles/app.constructable.js";
 import mainStyles from "../../../styles/main.constructable.js";
+
+// Import dependent components
+import "../todo-topbar/todo-topbar.component.js";
+import "../todo-list/todo-list.component.js";
+import "../todo-bottombar/todo-bottombar.component.js";
+import "../todo-item/todo-item.component.js"
+
 class TodoApp extends HTMLElement {
     #isReady = false;
     #data = [];

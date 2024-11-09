@@ -15,6 +15,8 @@ module.exports = {
         filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist"),
         clean: true,
+        library: "react-redux-todo-mvc",
+        libraryTarget: "umd"
     },
     resolve: {
         extensions: [".js", ".jsx"],

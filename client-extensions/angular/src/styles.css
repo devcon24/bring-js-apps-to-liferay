@@ -1,6 +1,6 @@
 /* used for things that should be hidden in the ui,
 but useful for people who use screen readers */
-.visually-hidden {
+div.todo-app .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -13,21 +13,22 @@ but useful for people who use screen readers */
   white-space: nowrap;
 }
 
-.toggle-all {
+div.todo-app .toggle-all {
   width: 40px !important;
   height: 60px !important;
   right: auto !important;
 }
 
-.toggle-all-label {
+div.todo-app .toggle-all-label {
   pointer-events: none;
 }
 
-app-todo-item {
+div.todo-app app-todo-item {
   display: block;
   border-bottom: 1px solid #ededed;
 }
 
-app-todo-item:last-child {
+div.todo-app app-todo-item:last-child {
   border-bottom: none;
 }
+

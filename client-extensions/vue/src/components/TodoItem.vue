@@ -2,7 +2,7 @@
 import { ref, nextTick, computed } from 'vue'
 
 const props = defineProps(['todo', 'index']);
-const emit = defineEmits(['delete-todo', 'edit-todo']);
+const emit = defineEmits(['delete-todo', 'edit-todo', 'toggle-todo']);
 
 const editing = ref(false);
 const editInput = ref(null);

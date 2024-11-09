@@ -1,5 +1,5 @@
 {
-    "name": "todomvc-lit",
+    "name": "lit-todo-mvc",
     "private": true,
     "type": "module",
     "engines": {

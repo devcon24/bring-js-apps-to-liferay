@@ -1,5 +1,5 @@
 {
-    "name": "todomvc-svelte",
+    "name": "svelte-todo-mvc",
     "version": "1.0.0",
     "description": "A TodoMVC app written with Svelte.",
     "engines": {

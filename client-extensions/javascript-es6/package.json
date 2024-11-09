@@ -1,5 +1,5 @@
 {
-    "name": "todomvc-javascript-es6-webpack",
+    "name": "es6-todo-mvc",
     "version": "1.0.0",
     "description": "A TodoMVC written with JavaScript es6 features.",
     "engines": {
@@ -9,7 +9,7 @@
     "private": true,
     "scripts": {
         "dev": "webpack serve --open --config webpack.dev.js",
-        "build": "webpack --config webpack.prod.js",
+        "build": "webpack --config webpack.dev.js",
         "serve": "http-server ./dist -p 7002 -c-1 --cors"
     },
     "dependencies": {

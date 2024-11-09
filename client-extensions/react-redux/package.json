@@ -1,5 +1,5 @@
 {
-    "name": "todomvc-react-redux",
+    "name": "react-redux-todo-mvc",
     "version": "1.0.0",
     "description": "TodoMVC app written with React-Redux.",
     "private": true,
@@ -8,14 +8,17 @@
         "npm": ">=8.19.3"
     },
     "scripts": {
-        "build": "webpack --config webpack.prod.js",
+        "build": "webpack --config webpack.dev.js",
         "dev": "webpack serve --open --config webpack.dev.js",
         "serve": "http-server ./dist -p 7002 -c-1 --cors",
         "test": "jest"
     },
     "devDependencies": {
         "@babel/core": "^7.21.0",
-        "@babel/preset-env": "^7.20.2",
+        "@babel/plugin-transform-react-jsx": "^7.25.9",
+        "@babel/preset-env": "^7.26.0",
+        "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
         "@babel/preset-react": "^7.18.6",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^12.1.5",

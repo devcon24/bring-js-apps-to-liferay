@@ -12,7 +12,7 @@ import "./todo-footer.js";
 import { AddTodoEvent, DeleteTodoEvent, ToggleAllTodoEvent, EditTodoEvent, ClearCompletedEvent } from "./events.js";
 import { updateOnEvent } from "./utils.js";
 
-@customElement("todo-app")
+@customElement("lit-todo-mvc")
 export class TodoApp extends LitElement {
     static override styles = [
         todoStyles,

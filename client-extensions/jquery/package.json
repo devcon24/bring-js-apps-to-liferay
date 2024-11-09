@@ -1,20 +1,26 @@
 {
-  "name": "todomvc-jquery",
+  "name": "jquery-todo-mvc",
   "description": "A TodoMVC written in jQuery.",
   "private": true,
   "scripts": {
-    "dev": "http-server ./ -p 7001 -c-1 --cors",
-    "build": "node scripts/build.js",
+    "dev": "webpack serve --mode development --open --port 7001",
+    "build": "webpack --mode development",
     "serve": "http-server ./dist -p 7002 -c-1 --cors"
   },
   "dependencies": {
-    "director": "~1.2.2",
-    "handlebars": "^4.0.6",
-    "jquery": "^3.6.3",
+    "director": "^1.2.8",
+    "handlebars": "^4.7.8",
+    "jquery": "^3.7.1",
     "todomvc-app-css": "^2.4.2",
     "todomvc-common": "^1.0.5"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   }
 }

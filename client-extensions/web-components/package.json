@@ -1,15 +1,16 @@
 {
-    "name": "todomvc-javascript-web-components",
+    "name": "webcomponents-todo-mvc",
     "version": "1.0.0",
     "description": "TodoMVC app written with JavaScript using web components.",
     "engines": {
         "node": ">=18.13.0",
         "npm": ">=8.19.3"
     },
+    "type": "module",
     "private": true,
     "scripts": {
         "dev": "http-server ./ -p 7005 -c-1 --cors -o",
-        "build": "node scripts/build.js",
+        "build": "rollup -c",
         "serve": "http-server ./dist -p 7006 -c-1 --cors -o"
     },
     "keywords": [],
@@ -18,5 +19,13 @@
     "dependencies": {
         "http-server": "^14.1.1",
         "todomvc-common": "^1.0.5"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^28.0.1",
+        "@rollup/plugin-node-resolve": "^15.3.0",
+        "rollup": "^4.24.4",
+        "rollup-plugin-copy": "^3.5.0",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-terser": "^7.0.2"
     }
 }
