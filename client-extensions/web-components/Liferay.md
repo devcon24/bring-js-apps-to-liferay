@@ -10,7 +10,7 @@ These components are already defined as web components, so it might seem as thou
 
 The problem can be seen in the `index.html` file - there's a lot of JS files to load, a lot of CSS files to load, and internally they have a lot of other resources that they're going to access.
 
-To simplify using this as a Liferay Client Extension, we're going to add Rollup into the mix to pull everything together. Use the command `yarn add -D rollup rollup-plugin-terser @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-plugin-postcss rollup-plugin-copy` to pull in the necessary resources.
+To simplify using this as a Liferay Client Extension, we're going to add Rollup into the mix to pull everything together. Use the command `yarn add -D rollup rollup-plugin-terser @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-plugin-postcss rollup-plugin-copy postcss` to pull in the necessary resources.
 
 ## Modifications
 
